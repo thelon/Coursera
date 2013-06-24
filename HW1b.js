@@ -9,7 +9,7 @@ for( i=1;i<=100;i++){
   res[i]=1;	
 }
 
-for( i2=2;i<=10;i++){
+for( i2=2;i2<=10;i2++){
   for( j=i2*2;j<=100;j=j+i2){
       res[j]=0;
   }
@@ -21,7 +21,7 @@ for ( i3=3;i3<101;i3++){
   if (res[i3]>0){
      out = out+","+i3;
   }
-  console.log(i3+"="+res[i3]);
+  console.log("3 "+i3+"="+res[i3]);
 }
 
 fs.writeFileSync(outfile, out);  
