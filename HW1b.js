@@ -4,7 +4,7 @@ var i;
 var i2;
 var i3;
 var j;
-var j2=0;
+var j2=2;
 var res=new Array();
 for( i=1;i<=10000;i++){
   res[i]=1;	
