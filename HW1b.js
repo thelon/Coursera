@@ -19,7 +19,7 @@ for ( i=3;i<101;i++);{
   if (res[i]>0){
      out = out+","+i;
   }
-	
+  console.log(i+"="+res[i]);
 }
 
 fs.writeFileSync(outfile, out);  
