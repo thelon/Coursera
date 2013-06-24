@@ -2,7 +2,7 @@ var fs = require('fs');
 var outfile = "HW1b.txt";
 var i;
 var j;
-var res;
+var res=new Array();
 for( i=1;i<=100;i++){
   res[i]=1;	
 }
