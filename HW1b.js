@@ -24,6 +24,7 @@ var out = "2";
 
 for ( i3=3;i3<10001;i3++){
   if (res[i3]>0){
+     console.log("RES "+j2+"="+i3);
      out = out+","+i3;
      j2=j2+1;
   }
