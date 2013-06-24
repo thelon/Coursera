@@ -14,12 +14,13 @@ for( i=2;i<=10;i++){
 }
 
 var out = "2";
+
 for ( i=3;i<101;i++);{
   if (res[i]>0){
      out = out+","+i;
   }
+	
 }
 
-var out = "";
 fs.writeFileSync(outfile, out);  
 console.log("Script: " + __filename + "\nWrote: " + out + "To: " + outfile);
