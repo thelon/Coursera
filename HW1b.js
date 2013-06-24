@@ -17,7 +17,7 @@ for( i2=2;i<=10;i++){
 
 var out = "2";
 
-for ( i3=3;i3<101;i3++);{
+for ( i3=3;i3<101;i3++){
   if (res[i3]>0){
      out = out+","+i3;
   }
